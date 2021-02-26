@@ -21,7 +21,7 @@ public class App {
                 GreetingServiceGrpc.newBlockingStub(channel);
 
         GreetingServiceOuterClass.HelloRequest request = GreetingServiceOuterClass.HelloRequest
-                .newBuilder().setName("Nursultan")
+                .newBuilder().setName("Your name")
                 .build();
 
         GreetingServiceOuterClass.HelloResponse response = stub.greeting(request);
