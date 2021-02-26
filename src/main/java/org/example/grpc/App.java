@@ -28,5 +28,7 @@ public class App {
         System.out.println(response);
         channel.shutdownNow();
 
+        System.out.println("request sending ...");
+
     }
 }
